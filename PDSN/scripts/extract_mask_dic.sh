@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-PROJECT="/home/lab-com/PycharmProjects/cas/PDSN/"
+PROJECT="/home/lab-com/PycharmProjects/cas/OAFR/PDSN/"
 cd "$PROJECT"
 function runExtract()
 {

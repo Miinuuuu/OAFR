@@ -1,5 +1,5 @@
 #!/bin/bash
-PROJECT="/home/lingxuesong/projects/PDSN/"
+PROJECT="/home/lab-com/PycharmProjects/cas/OAFR/PDSN"
 cd "$PROJECT"
 function runTrainDic()
 {

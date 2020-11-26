@@ -130,4 +130,4 @@ if not args.visualize:
     im_target = target.data.cpu().numpy()
     im_target_rgb = np.array([label_colours[ c % 100 ] for c in im_target])
     im_target_rgb = im_target_rgb.reshape( im.shape ).astype( np.uint8 )
-cv2.imwrite( "output.png", im_target_rgb )
+cv2.imwrite("output.png", im_target_rgb)
